@@ -1,0 +1,40 @@
+:root{
+    --yellow: #fed330;
+    --red: #e74c3c;
+    --white: #fff;
+    --black: #222;
+    --light-color:#777;
+    --border: .2rem solid var(--black);
+}
+
+.search-form form{
+    display: flex;
+    gap: 1.3rem;
+}
+
+.search-form form .box{
+    width: 100%;
+    border: var(--border);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+}
+
+.search-form form .fa-search{
+    width: 5rem;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.search-form form .fa-search:hover{
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.products{
+    min-height: 100vh;
+    padding-top:0;
+}
+
